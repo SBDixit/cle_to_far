@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body> 
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="dody">
+            <div class="box">
+                <label for="Celsius">Celsius</label>
+                <p></p>
+                    <input type="number" id="celsius" oninput= "cel_far()">
+            </div>
+                <div class="box">
+                    <label for="fahrenheit">Fahrenheit</label>
+                   <p></p> <input type="number" id="fahrenheit" oninput = "far_cel()">
+                </div>
+        </div>
+    </div>
+    <script src="logic.js"></script>
+    
+</body>
+</html>

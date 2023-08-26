@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+ width:100%;
+ height:100vh;
+ background: url("climate.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+h1{    
+    color:rgb(230, 237, 222);
+    padding-top: 30px;  
+    text-align: center;
+    font-size: 3rem;  
+}
+.dody{
+    height:30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    align-items: center;
+    color: rgb(228, 228, 228);
+}
+.box{
+    font-size: 35px;
+}
+input{
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 2px ;
+}
+@media screen and (max-width: 768px) { 
+    h1{
+        text-align: left;
+        padding-left: 30px;
+    } 
+    .dody{
+        display: grid;
+        margin-top:10%;
+        height:35%;
+        text-align: center;
+    }    
+    .box{
+        font-size: 2.5rem;
+    }
+    input{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 588px) {
+    h1{
+        font-size: 2.6rem;
+        flex-direction: column;
+    }
+    .dody{
+        flex-direction: column;
+    }
+    input{
+        font-size: 15px;
+    }
+}
